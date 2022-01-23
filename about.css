@@ -1,0 +1,42 @@
+
+
+/* photo styling */
+.photo {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-49%, -49%);
+}
+
+/* text styling */
+.hello {
+    color: #333A44;
+    text-align: right;
+    font-family: "Hailey Script";
+    font-size: 100px;
+    font-weight: 100000;
+    position: absolute;
+    top: 18%;
+    left: 75%;
+    transform: translate(-49%, -49%);
+
+}
+
+.intro {
+    color: #333A44;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-49%, -49%);
+
+}
+
+/* background styling */
+body {
+    background: linear-gradient(to right, #FEECC3 50%, white 0%);
+}
+
+
