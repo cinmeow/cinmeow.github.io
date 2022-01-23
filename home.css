@@ -1,23 +1,24 @@
 /* Navigation Bar Styling */
-.nav {
+.navbar {
   background-color: #FEECC3;
   overflow: hidden;
 }
 
-.nav a {
+.navbar a {
   float: right;
   color: #333A44;
   text-align: center;
   padding: 12px 15px;
   text-decoration: none;
   font-size: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.nav a:hover {
+.navbar a:hover {
   color: #E8CBB1;
 }
 
-.nav a.active {
+.navbar a.active {
   color: #7C9CAB;
 }
 
@@ -25,11 +26,13 @@
 .landing {
     color: #333A44;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
     font-size: 70px;
+    font-weight: 100000;
     position: absolute;
     top: 45%;
-    left: 50%;
-    transform: translate(-49%, -49%);
+    left: 45%;
+    transform: translate(-38%, -49%);
 }
 
 .icons {
@@ -38,6 +41,16 @@
     font-size:30px;
     position: absolute;
     top: 58%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+}
+
+.arrow {
+    color: #FEECC3;
+    text-align: center;
+    font-size:30px;
+    position: absolute;
+    top: 90%;
     left: 50%;
     transform: translate(-49%, -49%);
 }
