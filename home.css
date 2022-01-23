@@ -31,16 +31,16 @@
     font-weight: 100000;
     position: absolute;
     top: 45%;
-    left: 45%;
-    transform: translate(-38%, -49%);
+    left: 50%;
+    transform: translate(-49%, -49%);
 }
 
 .icons {
     color: #FEECC3;
     text-align: center;
-    font-size:30px;
+    font-size:12px;
     position: absolute;
-    top: 58%;
+    top: 62%;
     left: 50%;
     transform: translate(-49%, -49%);
 }
