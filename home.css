@@ -1,10 +1,10 @@
 /* Navigation Bar Styling */
-.topnav {
+.nav {
   background-color: #FEECC3;
   overflow: hidden;
 }
 
-.topnav a {
+.nav a {
   float: right;
   color: #333A44;
   text-align: center;
@@ -13,11 +13,11 @@
   font-size: 20px;
 }
 
-.topnav a:hover {
+.nav a:hover {
   color: #E8CBB1;
 }
 
-.topnav a.active {
+.nav a.active {
   color: #7C9CAB;
 }
 
@@ -27,7 +27,7 @@
     text-align: center;
     font-size: 70px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-49%, -49%);
 }
@@ -37,7 +37,7 @@
     text-align: center;
     font-size:30px;
     position: absolute;
-    top: 63%;
+    top: 58%;
     left: 50%;
     transform: translate(-49%, -49%);
 }
