@@ -3,9 +3,8 @@
 /* photo styling */
 .photo {
     position: absolute;
-    top: 150%;
-    left: 25%;
-    transform: translate(-49%, -49%);
+    top: 120%;
+    left: 11%;
 }
 
 /* text styling */
@@ -16,7 +15,7 @@
     font-size: 100px;
     font-weight: 100000;
     position: absolute;
-    top: 110%;
+    top: 120%;
     left: 75%;
     transform: translate(-49%, -49%);
 
@@ -28,7 +27,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     position: absolute;
-    top: 132%;
+    top: 140%;
     left: 75%;
     transform: translate(-49%, -49%);
 

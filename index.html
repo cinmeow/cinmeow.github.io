@@ -4,17 +4,18 @@
     <meta charset="utf-8" />
     <title>Cindy Lin</title>
 
-    <!-- styling for landing page -->
+    <!-- styling -->
     <link rel="stylesheet" href="/home.css"/>
     <link rel="stylesheet" href="/about.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <!-- javascript file -->
+    <script src="/home.js"></script>
 </head>
     <body style="background-color:#FEECC3;">
+
     <!-- navigation bar -->
     <nav class="navbar">
         <a class="active" href="#special">C:</a>
@@ -24,36 +25,38 @@
     </nav>
 
     <!-- Landing Page -->
-    <div class="block" style="padding-top: 100px; padding-bottom: 540px">
-        <h1 class="landing">
-            CINDY LIN
-        </h1>
-        <p class="icons">
-            <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/chih-hsien-cindy-lin-0520/">
-                <img src="home/linkedin.png" alt="linkedin" height="50" width="50"></a>
-            <!-- GitHub -->
-            <a href="https://github.com/cinmeow">
-                <img src="home/github.png" alt="GitHub" height="50" width="50"></a>
-            <!-- Email -->
-            <a href="https://www.linkedin.com/in/chih-hsien-cindy-lin-0520/">
-                <img src="home/email.png" alt="Email" height="50" width="50"></a>
-            <!-- Instagram -->
-            <a href="https://www.instagram.com/_cinnomnom/?hl=en">
-                <img src="home/instagram.png" alt="linkedin" height="50" width="50"></a>
-        </p>
-        <p class="arrow">
-            <img src="home/arrow.png" alt="down" height="50" width="50">
-        </p>
+    <div class="block" style="padding-top: 100px; padding-bottom: 630px">
+        <section>
+            <h1 class="landing"> CINDY LIN </h1>
+            <p class="icons">
+                <!-- LinkedIn -->
+                <a onclick="newTabLinkedin()" id="linkedin">
+                    <img src="home/linkedin.png" alt="linkedin" height="50" width="50"></a>
+                <!-- GitHub -->
+                <a onclick="newTabGit()" id="github">
+                    <img src="home/github.png" alt="GitHub" height="50" width="50"></a>
+                <!-- Email -->
+                <a href="mailto:cindy1999lin@gmail.com">
+                    <img src="home/email.png" alt="Email" height="50" width="50"></a>
+                <!-- Instagram -->
+                <a onclick="newTabInsta()" id="instagram">
+                    <img src="home/instagram.png" alt="linkedin" height="50" width="50"></a>
+            </p>
+            <p class="arrow">
+                <img src="home/arrow.png" alt="down" height="50" width="50">
+            </p>
+        </section>
     </div>
     <!-- About Me Page -->
-    <div class="aboutBlock" style="padding-top: 120px; padding-bottom: 550px">
+    <div class="aboutBlock" style="padding-top: 0px; padding-bottom: 800px">
         <a id="about"></a>
-        <p class="photo">
-            <img src="./about/cindo.jpg" alt="Dis me" height="512" width="386">
-        </p>
-        <h1 class="hello">hello</h1>
-        <p class="intro"> hi there! My name is <b>Cindy</b> blah blah blah blah LOL Can't think of a good self intro sadddd </p>
+        <section>
+            <p class="photo">
+                <img src="./about/cindo.jpg" alt="Dis me" height="512" width="386">
+            </p>
+            <h1 class="hello">hello</h1>
+            <p class="intro"> hi there! My name is <b>Cindy</b> blah blah blah blah LOL Can't think of a good self intro sadddd </p>
+        </section>
     </div>
     </body>
 </html>
