@@ -1,27 +1,29 @@
 
 
+.leftBlock {
+    position: absolute;
+    align-content: center;
+}
+
 /* photo styling */
 .photo {
-    position: absolute;
-    top: 130%;
-    left: 10%;
+    margin: auto;
+    width: 50%;
+    padding-top: 800px;
 }
 
 /* page styling */
 .white-block {
     background-color: #FFFFFF;
-    position: absolute;
     align-content: center;
-    top: 157%;
-    left: 75%;
-    transform: translate(-49%, -49%);
     width: 500px;
-    height: auto;
+    height: 400px;
+    transform: translate(-49%, -49%);
 }
 
 .self_intro {
     position: absolute;
-    top: 172%;
+    top: 154%;
     left: 70%
 }
 /* text styling */
@@ -32,8 +34,8 @@
     font-size: 100px;
     font-weight: 100000;
     position: absolute;
-    top: 100%;
-    left: 100%;
+    top: 115%;
+    left: 70%;
     transform: translate(-49%, -49%);
 
 }
@@ -64,13 +66,5 @@
     padding: 0px 60px;
 }
 
-
-/* background styling */
-.aboutBlock {
-    background: #FEECC3
-     width: 100%;
-     height: 100%;
-     overflow: scroll;
-}
 
 
