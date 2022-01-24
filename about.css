@@ -3,7 +3,7 @@
 /* photo styling */
 .photo {
     position: absolute;
-    top: 50%;
+    top: 150%;
     left: 25%;
     transform: translate(-49%, -49%);
 }
@@ -16,7 +16,7 @@
     font-size: 100px;
     font-weight: 100000;
     position: absolute;
-    top: 18%;
+    top: 110%;
     left: 75%;
     transform: translate(-49%, -49%);
 
@@ -28,15 +28,18 @@
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     position: absolute;
-    top: 40%;
+    top: 132%;
     left: 75%;
     transform: translate(-49%, -49%);
 
 }
 
 /* background styling */
-body {
+.aboutBlock {
     background: linear-gradient(to right, #FEECC3 50%, white 0%);
+     width: 100%;
+     height: 100%;
+     overflow: scroll;
 }
 
 
