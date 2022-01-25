@@ -3,13 +3,28 @@
 .leftBlock {
     position: absolute;
     align-content: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 40px
+
+}
+
+.rightBlock {
+    position: absolute;
+    align-content: center;
+    padding-left: 1200px;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 
 /* photo styling */
 .photo {
     margin: auto;
     width: 50%;
-    padding-top: 800px;
+    padding-top: 810px;
+    border-radius:4px;
+    max-width:100%;
+    height:auto
 }
 
 /* page styling */
@@ -17,8 +32,7 @@
     background-color: #FFFFFF;
     align-content: center;
     width: 500px;
-    height: 400px;
-    transform: translate(-49%, -49%);
+    height: 450px;
 }
 
 .self_intro {
@@ -29,14 +43,10 @@
 /* text styling */
 .hello {
     color: #333A44;
-    text-align: center;
     font-family: "Hailey Script";
     font-size: 100px;
-    font-weight: 100000;
     position: absolute;
-    top: 115%;
-    left: 70%;
-    transform: translate(-49%, -49%);
+    right: 3.5%
 
 }
 
@@ -46,7 +56,8 @@
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     padding: 30px 30px;
-
+    display:inline-block;
+    width:auto;
 }
 
 .interests {
@@ -55,6 +66,8 @@
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     padding: 0px 30px;
+    display:inline-block;
+    width:auto;
 }
 
 
@@ -64,6 +77,12 @@
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     padding: 0px 60px;
+    display:inline-block;
+    width:auto;
+}
+
+.aboutBlock {
+    background: linear-gradient(to left, #000000 50%, #FFFFFF 50%);
 }
 
 

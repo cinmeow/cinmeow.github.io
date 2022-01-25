@@ -18,18 +18,18 @@
     <!-- javascript file -->
     <script src="/home.js"></script>
 </head>
-    <body style="background-color:#FEECC3;">
+    <body style="background-color:#FEECC3; background-size: cover;" onresize="adjustWindow()">
 
     <!-- navigation bar -->
     <nav class="navbar">
-        <a class="active" href="#special">C:</a>
+        <a href="#special" onclick="meme()" id="special">C:</a>
         <a href="#blog">links</a>
         <a href="#links">blog</a>
         <a href="#about">about</a>
     </nav>
 
     <!-- Landing Page -->
-    <div class="block" style="padding-top: 100px; padding-bottom: 630px">
+    <div class="block" style="padding-top: 100px; padding-bottom: 600px">
         <section>
             <h1 class="landing"> CINDY LIN </h1>
             <p class="icons">
@@ -53,7 +53,7 @@
     </div>
 
     <!-- About Me Page -->
-    <div class="block">
+    <div class="block" style="padding-top: 50px; padding-bottom: 600px">
         <a id="about"></a>
         <div class="leftBlock">
             <p class="photo">
@@ -63,7 +63,7 @@
         <div class="rightBlock">
             <h1 class="hello">hello</h1>
             <section class="self_intro">
-                <section class="white-block">
+                <div class="white-block">
                     <p class="intro"> Hi there!</br> My name is <strong>Cindy</strong>! I graduated from UC Berkeley in 2021, where I studied Computer Science and Data Science. I am interested in health technology and CS education. :)</br>
                     </p>
                     <p class="interests">
@@ -75,7 +75,7 @@
                         <li>Traveling</li>
                         <li>Books</li>
                         <li>Anime/Kdramas</li></ul> </p>
-                </section>
+                </div>
             </section>
         </div>
     </div>
