@@ -1,88 +1,62 @@
 
 
 .leftBlock {
-    position: absolute;
     align-content: center;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    padding-left: 40px
-
+    width: 50%;
+    height: auto;
 }
 
 .rightBlock {
-    position: absolute;
     align-content: center;
-    padding-left: 1200px;
-    padding-top: 200px;
-    padding-bottom: 50px;
+    background-color: #FFFFFF;
+    width: 50%;
+    height: auto%;
 }
 
 /* photo styling */
 .photo {
-    margin: auto;
-    width: 50%;
-    padding-top: 810px;
-    border-radius:4px;
-    max-width:100%;
-    height:auto
+    max-width: 100%;
+    height: auto;
+    padding-left: 22%;
+    padding-top: 10.25%;
+    padding-bottom: 10.25%;
 }
 
-/* page styling */
-.white-block {
-    background-color: #FFFFFF;
-    align-content: center;
-    width: 500px;
-    height: 450px;
-}
-
-.self_intro {
-    position: absolute;
-    top: 154%;
-    left: 70%
-}
 /* text styling */
 .hello {
     color: #333A44;
     font-family: "Hailey Script";
-    font-size: 100px;
-    position: absolute;
-    right: 3.5%
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 5%;
+    margin-bottom: -10%;
+    font-size: 3.5vw;
 
 }
 
 .intro {
     color: #333A44;
-    text-align: left;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    padding: 30px 30px;
-    display:inline-block;
-    width:auto;
+    font-size: 1.3vw;
+    padding-left: 25%;
+    padding-right: 20%;
+    line-height: 1.2;
 }
 
 .interests {
     color: #333A44;
-    text-align: left;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    padding: 0px 30px;
-    display:inline-block;
-    width:auto;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    padding-left: 25%;
+    padding-right: 20%;
 }
 
-
-.interestsList {
-    color: #333A44;
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    padding: 0px 60px;
-    display:inline-block;
-    width:auto;
-}
-
-.aboutBlock {
-    background: linear-gradient(to left, #000000 50%, #FFFFFF 50%);
+.highlight {
+    font-weight: bold;
+    color: #00755D;
 }
 
 
