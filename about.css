@@ -4,6 +4,8 @@
     align-content: center;
     width: 50%;
     height: auto;
+    border-style: solid;
+    border-color: pink;
 }
 
 .rightBlock {
@@ -11,6 +13,8 @@
     background-color: #FFFFFF;
     width: 50%;
     height: auto;
+    border-style: solid;
+    border-color: blue;
 }
 
 /* photo styling */
