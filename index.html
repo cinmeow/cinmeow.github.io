@@ -1,77 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cindy Lin</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cindy Lin</title>
 
-    <!-- styling -->
-    <link rel="stylesheet" href="/home.css"/>
-    <link rel="stylesheet" href="/about.css"/>
+        <!-- styling -->
+        <!-- bulma framework -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="/links.css"/>
+        <link rel="stylesheet" href="/about.css"/>
+        <link rel="stylesheet" href="/home.css"/>
+        <script src="https://kit.fontawesome.com/88a4d4cc9b.js" crossorigin="anonymous"></script>
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 
-    <!-- javascript file -->
-    <script src="/home.js"></script>
-</head>
+        <!-- javascript file -->
+        <script src="/home.js"></script>
+        </head>
+
     <body style="background-color:#FEECC3; background-size: cover;">
 
-    <!-- navigation bar -->
-    <nav class="navbar">
-        <a onclick="meme()" id="special">C:</a>
-        <a href="./links.html">links</a>
-        <a href="./construction.html">blog</a>
-        <a href="#about">about</a>
-    </nav>
-
-    <!-- Landing Page -->
-    <div class="block" style="padding-top: 25%; padding-bottom: 26%">
-        <section>
-            <h1 class="landing"> CINDY LIN </h1>
-            <p class="icons">
-                <!-- LinkedIn -->
-                <a onclick="newTabLinkedin()" id="linkedin">
-                    <img src="home/linkedin.png" alt="linkedin" width="4%"></a>
-                <!-- GitHub -->
-                <a onclick="newTabGit()" id="github">
-                    <img src="home/github.png" alt="GitHub" width="4%"></a>
-                <!-- Email -->
-                <a href="mailto:cindy1999lin@gmail.com">
-                    <img src="home/email.png" alt="Email" width="4%"></a>
-                <!-- Instagram -->
-                <a onclick="newTabInsta()" id="instagram">
-                    <img src="home/instagram.png" alt="linkedin" width="4%"></a>
-            </p>
-            <p class="arrow">
-                <a href="#about"><img src="home/arrow.png" alt="down" width="4%"></a>
-            </p>
-        </section>
-    </div>
-
-    <!-- About Me Page -->
-    <div class="block">
-        <a id="about"></a>
-        <div class="leftBlock">
-            <p class="photo">
-                <img src="./about/cindo.jpg" alt="Dis me" width="70%">
-            </p>
-        </div>
-        <div class="rightBlock">
-            <div class="hello">
-                <h1>hello!</h1>
+        <!-- navigation bar -->
+        <nav class="navbar is-transparent">
+            <div class="navbar-brand myContent navContent">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="myMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <p class="intro"> <strong>Hi there!</strong></br> My name is <span class="highlight"><strong>Cindy</strong></span>. I recently graduated from UC Berkeley, where I studied Computer Science and Data Science.</br>
-                I am excited about <span class="highlight">health technology</span>, <span class="highlight">data science</span>, and <span class="highlight">CS education</span>. Motivated by my passion for health tech, I will be pursuing my Master's degree
-                in Biostatistics and Health Data Science this coming Fall. </br>
-            </p>
-            <p class="interests">
-                <strong>Chat with me about:</strong> </br>
-                Learning New Languages,</br> Food Photography, Anime/Kdramas, Cooking/Eating, Books, Mando Music,</br> and Traveling</br>
-            </p>
+            <div class="navbar-menu myContent navContent" id="'myMenu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#about">about</a>
+                    <a class="navbar-item" href="./construction.html">blog</a>
+                    <a class="navbar-item" href="./links.html">links</a>
+                    <a class="navbar-item" onclick="meme()" id="special">C:</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Landing Page -->
+        <div class="hero is-fullheight-with-navbar is-large" style="padding-top: 20%">
+            <div class="hero-head">
+                <p class="title landing"> CINDY LIN </p>
+                    <div class="level">
+                        <div class="level-item has-text-centered">
+                            <div class="block is-flex is-align-items-center">
+                                <!-- LinkedIn -->
+                                <a class="image icons" onclick="newTabLinkedin()" id="linkedin">
+                                    <img src="home/linkedin.png" alt="linkedin"></figure>
+                                <!-- GitHub -->
+                                <a class="image icons" onclick="newTabGit()" id="github">
+                                    <img src="home/github.png" alt="GitHub"></a>
+                                <!-- Email -->
+                                <a class="image icons" href="mailto:cindy1999lin@gmail.com">
+                                    <img src="home/email.png" alt="Email"></a>
+                                <!-- Instagram -->
+                                <a class="image icons" onclick="newTabInsta()" id="instagram">
+                                    <img src="home/instagram.png" alt="linkedin"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="hero-foot">
+            </div>
         </div>
-    </div>
+
+        <!-- About Me Page -->
+        <a id="about"></a>
+        <div class="section is-medium">
+            <div class="columns is-mobile is-centered">
+                <div class="column is-half is-narrow-mobile">
+                    <div class="block photo m-auto">
+                        <figure class="image is-3by4">
+                            <img src="./about/cindo.jpg" alt="Dis me">
+                        </figure>
+                    </div>
+                </div>
+                <div class="column is-half is-narrow-mobile" style="background-color:#FFFFFF">
+                    <h1 class="title hello mt-2">hello! :)</h1>
+                    <div class="content">
+                        <p class="intro"> My name is <span class="highlight"><strong>Cindy</strong></span>. I recently graduated from UC Berkeley, where I studied Computer Science and Data Science.</br>
+                            I am excited about <span class="highlight">health technology</span>, <span class="highlight">data science</span>, and <span class="highlight">CS education</span>. Motivated by my passion for health tech, I will be pursuing my Master's degree
+                            in Biostatistics and Health Data Science this coming Fall. </br>
+                        </p>
+                        <p class="interests">
+                            <strong>Chat with me about:</strong> </br>
+                            Learning New Languages,</br> Food Photography, Anime/Kdramas, Cooking/Eating, Books, Mando Music,</br> and Traveling</br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
